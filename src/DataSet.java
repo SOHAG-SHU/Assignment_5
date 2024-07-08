@@ -1,16 +1,12 @@
 import java.util.ArrayList;
-
 public class DataSet {
     private ArrayList<Double> values;
-
     public DataSet() {
         values = new ArrayList<>();
     }
-
     public void add(double value) {
         values.add(value);
     }
-
     public double getAverage() {
         if (values.isEmpty()) {
             return 0;
